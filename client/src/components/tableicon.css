@@ -1,0 +1,41 @@
+
+
+#table{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 92, 179);
+    border-radius: 10px;
+    color: white;
+}
+
+#chair{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(0, 77, 90);
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+
+#table-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner-chair{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+
+.btn{
+    border-radius: 10px;
+    background-color: lightblue;
+    transition: .5s;
+}
+.btn:hover{
+    background-color: lightblue;
+    transform: scale(1.05);
+}
